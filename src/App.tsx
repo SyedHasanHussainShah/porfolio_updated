@@ -153,52 +153,52 @@ const EDUCATION = [
 
 const SKILLS_DATA = {
   Frontend: [
-    { name: "HTML5",       icon: <FaHtml5 className="text-orange-500" />,      level: 95 },
-    { name: "CSS3",        icon: <FaCss3Alt className="text-blue-400" />,       level: 90 },
-    { name: "JavaScript",  icon: <SiJavascript className="text-yellow-400" />,  level: 75 },
-    { name: "TypeScript",  icon: <SiTypescript className="text-sky-500" />,     level: 65 },
-    { name: "React",       icon: <FaReact className="text-sky-400" />,          level: 82 },
-    { name: "Next.js",     icon: <SiNextdotjs />,                               level: 50 },
-    { name: "Tailwind CSS",icon: <SiTailwindcss className="text-cyan-400" />,   level: 90 },
-    { name: "Bootstrap",   icon: <FaBootstrap className="text-purple-500" />,   level: 85 },
-    { name: "Three.js",    icon: <SiThreedotjs className="text-blue-300" />,    level: 40 },
-    { name: "Vite",        icon: <SiVite className="text-purple-400" />,        level: 80 },
+    { name: "HTML5", icon: <FaHtml5 className="text-orange-500" />, level: 95 },
+    { name: "CSS3", icon: <FaCss3Alt className="text-blue-400" />, level: 90 },
+    { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" />, level: 75 },
+    { name: "TypeScript", icon: <SiTypescript className="text-sky-500" />, level: 65 },
+    { name: "React", icon: <FaReact className="text-sky-400" />, level: 82 },
+    { name: "Next.js", icon: <SiNextdotjs />, level: 50 },
+    { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" />, level: 90 },
+    { name: "Bootstrap", icon: <FaBootstrap className="text-purple-500" />, level: 85 },
+    { name: "Three.js", icon: <SiThreedotjs className="text-blue-300" />, level: 40 },
+    { name: "Vite", icon: <SiVite className="text-purple-400" />, level: 80 },
   ],
   Backend: [
-    { name: "Node.js",    icon: <FaNodeJs className="text-green-500" />, level: 80 },
-    { name: "Express.js", icon: <SiExpress />,                           level: 48 },
-    { name: "Python",     icon: <FaPython className="text-yellow-400" />, level: 75 },
-    { name: "Flask",      icon: <SiFlask className="text-green-400" />,  level: 60 },
-    { name: "MongoDB",    icon: <SiMongodb className="text-green-600" />, level: 70 },
-    { name: "Oracle",     icon: <SiOracle className="text-red-500" />,   level: 70 },
+    { name: "Node.js", icon: <FaNodeJs className="text-green-500" />, level: 80 },
+    { name: "Express.js", icon: <SiExpress />, level: 48 },
+    { name: "Python", icon: <FaPython className="text-yellow-400" />, level: 75 },
+    { name: "Flask", icon: <SiFlask className="text-green-400" />, level: 60 },
+    { name: "MongoDB", icon: <SiMongodb className="text-green-600" />, level: 70 },
+    { name: "Oracle", icon: <SiOracle className="text-red-500" />, level: 70 },
   ],
   Tools: [
-    { name: "C++",   icon: <SiCplusplus className="text-sky-500" />,   level: 80 },
-    { name: "C#",    icon: <SiSharp className="text-purple-400" />,    level: 78 },
-    { name: "Linux", icon: <SiLinux className="text-yellow-400" />,    level: 70 },
+    { name: "C++", icon: <SiCplusplus className="text-sky-500" />, level: 80 },
+    { name: "C#", icon: <SiSharp className="text-purple-400" />, level: 78 },
+    { name: "Linux", icon: <SiLinux className="text-yellow-400" />, level: 70 },
   ],
 };
 
 const SKILLS_FLAT = [
-  { name: "HTML5",       icon: <FaHtml5 className="text-orange-500" />,      level: 95 },
-  { name: "CSS3",        icon: <FaCss3Alt className="text-blue-400" />,       level: 90 },
-  { name: "JavaScript",  icon: <SiJavascript className="text-yellow-400" />,  level: 75 },
-  { name: "Bootstrap",   icon: <FaBootstrap className="text-purple-600" />,   level: 85 },
-  { name: "Tailwind CSS",icon: <SiTailwindcss className="text-sky-400" />,    level: 90 },
-  { name: "Node.js",     icon: <FaNodeJs className="text-green-600" />,       level: 80 },
-  { name: "React",       icon: <FaReact className="text-sky-400" />,          level: 82 },
-  { name: "Vite",        icon: <SiVite className="text-purple-500" />,        level: 80 },
-  { name: "Next.js",     icon: <SiNextdotjs />,                               level: 50 },
-  { name: "Express.js",  icon: <SiExpress />,                                 level: 48 },
-  { name: "MongoDB",     icon: <SiMongodb className="text-green-700" />,      level: 70 },
-  { name: "Python",      icon: <FaPython className="text-yellow-500" />,      level: 75 },
-  { name: "C++",         icon: <SiCplusplus className="text-sky-500" />,      level: 80 },
-  { name: "C#",          icon: <SiSharp className="text-purple-500" />,       level: 78 },
-  { name: "Oracle",      icon: <SiOracle className="text-red-500" />,         level: 70 },
-  { name: "Flask",       icon: <SiFlask className="text-green-500" />,        level: 60 },
-  { name: "Three.js",    icon: <SiThreedotjs className="text-blue-400" />,    level: 40 },
-  { name: "Linux",       icon: <SiLinux className="text-yellow-500" />,       level: 70 },
-  { name: "TypeScript",  icon: <SiTypescript className="text-sky-500" />,     level: 65 },
+  { name: "HTML5", icon: <FaHtml5 className="text-orange-500" />, level: 95 },
+  { name: "CSS3", icon: <FaCss3Alt className="text-blue-400" />, level: 90 },
+  { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" />, level: 75 },
+  { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" />, level: 85 },
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" />, level: 90 },
+  { name: "Node.js", icon: <FaNodeJs className="text-green-600" />, level: 80 },
+  { name: "React", icon: <FaReact className="text-sky-400" />, level: 82 },
+  { name: "Vite", icon: <SiVite className="text-purple-500" />, level: 80 },
+  { name: "Next.js", icon: <SiNextdotjs />, level: 50 },
+  { name: "Express.js", icon: <SiExpress />, level: 48 },
+  { name: "MongoDB", icon: <SiMongodb className="text-green-700" />, level: 70 },
+  { name: "Python", icon: <FaPython className="text-yellow-500" />, level: 75 },
+  { name: "C++", icon: <SiCplusplus className="text-sky-500" />, level: 80 },
+  { name: "C#", icon: <SiSharp className="text-purple-500" />, level: 78 },
+  { name: "Oracle", icon: <SiOracle className="text-red-500" />, level: 70 },
+  { name: "Flask", icon: <SiFlask className="text-green-500" />, level: 60 },
+  { name: "Three.js", icon: <SiThreedotjs className="text-blue-400" />, level: 40 },
+  { name: "Linux", icon: <SiLinux className="text-yellow-500" />, level: 70 },
+  { name: "TypeScript", icon: <SiTypescript className="text-sky-500" />, level: 65 },
 ];
 
 /* ─────────────────────────── HOOKS ─────────────────────────── */
@@ -532,10 +532,10 @@ function useCounter(target: number, duration = 1500, startCounting = false) {
 }
 
 const STATS = [
-  { value: 6,  suffix: "+", label: "Projects Built",       icon: "🚀" },
+  { value: 6, suffix: "+", label: "Projects Built", icon: "🚀" },
   { value: 19, suffix: "+", label: "Technologies Mastered", icon: "⚡" },
-  { value: 2,  suffix: "+", label: "Years of Experience",   icon: "🏆" },
-  { value: 100, suffix: "%", label: "Commitment",           icon: "💎" },
+  { value: 2, suffix: "+", label: "Years of Experience", icon: "🏆" },
+  { value: 100, suffix: "%", label: "Commitment", icon: "💎" },
 ];
 
 function StatCard({ stat, isDark }: { stat: typeof STATS[0]; isDark: boolean }) {
@@ -731,12 +731,12 @@ function WhatIDo({ isDark }: { isDark: boolean }) {
 
 /* ─────────────────────────── NAV LINKS ─────────────────────────── */
 const NAV_LINKS = [
-  { href: "#projects",    label: "Projects" },
-  { href: "#education",   label: "Education" },
-  { href: "#skills",      label: "Skills" },
+  { href: "#projects", label: "Projects" },
+  { href: "#education", label: "Education" },
+  { href: "#skills", label: "Skills" },
   { href: "#looking-for", label: "Goals" },
-  { href: "#resume",      label: "Resume" },
-  { href: "#contact",     label: "Contact" },
+  { href: "#resume", label: "Resume" },
+  { href: "#contact", label: "Contact" },
 ];
 
 /* ═══════════════════════════ APP ═══════════════════════════ */
@@ -1336,8 +1336,8 @@ export default function App() {
                 style={{ display: "flex", gap: 10 }}
               >
                 {[
-                  { href: PROFILE.github,   icon: <FaGithub size={17} />,                                   label: "GitHub" },
-                  { href: PROFILE.linkedin, icon: <FaLinkedin size={17} style={{ color: "#0077b5" }} />,    label: "LinkedIn" },
+                  { href: PROFILE.github, icon: <FaGithub size={17} />, label: "GitHub" },
+                  { href: PROFILE.linkedin, icon: <FaLinkedin size={17} style={{ color: "#0077b5" }} />, label: "LinkedIn" },
                 ].map((s) => (
                   <motion.a
                     key={s.label}

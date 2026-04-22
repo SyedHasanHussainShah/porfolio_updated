@@ -16,7 +16,7 @@ export default function AnimatedName() {
       );
 
       if (!isDeleting && text === name) {
-        setTimeout(() => setIsDeleting(true), 1500); // pause before deleting
+        setTimeout(() => setIsDeleting(true), 2500);
       } else if (isDeleting && text === "") {
         setIsDeleting(false);
       }
@@ -26,8 +26,36 @@ export default function AnimatedName() {
   }, [text, isDeleting]);
 
   return (
-    <h1 className="text-4xl sm:text-5xl font-black leading-tight">
-      Hi, I’m <span className="gradient-text">{text}</span>
+    <h1 className="heading-xl">
+      <span
+        className="block text-xl sm:text-2xl font-light mb-1"
+        style={{ color: "rgba(148,163,184,0.8)" }}
+      >
+        Hi, I'm
+      </span>
+      <span
+        className="gradient-text block"
+        style={{ minHeight: "1.1em" }}
+      >
+        {text}
+        <span
+          style={{
+            display: "inline-block",
+            width: "3px",
+            height: "0.85em",
+            background: "#6c63ff",
+            marginLeft: "2px",
+            verticalAlign: "middle",
+            animation: "blink 1s step-end infinite",
+          }}
+        />
+      </span>
+      <style>{`
+        @keyframes blink {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0; }
+        }
+      `}</style>
     </h1>
   );
 }

@@ -4,29 +4,40 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/p.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0ea5e9" />
-    <meta name="description" content="Syed Hassan Hussain Shah — Portfolio: Full‑Stack Developer (React, Next.js, Node.js, Express.js, Tailwind CSS, Bootstrap)." />
+    <meta name="theme-color" content="#6c63ff" />
+    <meta name="description" content="Syed Hassan Hussain Shah — Full-Stack Developer Portfolio: React, Next.js, Node.js, Tailwind CSS, TypeScript. Building premium digital experiences." />
+    <meta name="keywords" content="Syed Hassan, Full Stack Developer, React Developer, Portfolio, Pakistan" />
+    <meta property="og:title" content="Syed Hassan Hussain Shah — Full-Stack Developer" />
+    <meta property="og:description" content="Full-Stack Developer crafting premium digital experiences with React, Node.js, and modern web technologies." />
+
+    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<style>
-  body {
-    font-family: "__silka_258137", "__silka_Fallback_258137", sans-serif;
-  }
-</style>
-    <title>Syed Hassan Hussain Shah — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Syed Hassan Hussain Shah — Full-Stack Developer</title>
+
+    <!-- Inline flash prevention: default dark -->
+    <script>
+      (function() {
+        var t = localStorage.getItem('theme') || 'dark';
+        if (t === 'dark') {
+          document.documentElement.classList.add('dark');
+          document.body && (document.body.style.background = '#0a0a0f');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+
+    <style>
+      /* Prevent flash of unstyled content */
+      html { background: #0a0a0f; }
+      html:not(.dark) { background: #f8f9ff; }
+    </style>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script>
-  if (!localStorage.theme) {
-    localStorage.theme = "dark";
-  }
-  if (localStorage.theme === "dark") {
-    document.documentElement.classList.add("dark");
-  } else {
-    document.documentElement.classList.remove("dark");
-  }
-</script>
   </body>
 </html>

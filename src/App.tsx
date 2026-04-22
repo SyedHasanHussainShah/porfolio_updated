@@ -1305,7 +1305,7 @@ export default function App() {
                 </a>
                 {/* Text link */}
                 <a
-                  href="https://drive.google.com/uc?export=download&id=17uEe9T9TmZqEFvpqv6tYoh2ZwoDC5kBP"
+                  href="https://drive.google.com/uc?export=download&id=113crhUwGj_f8VfkSnCUh__zPw9PJZfHb"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -2049,7 +2049,7 @@ export default function App() {
 
             <div style={{ display: "flex", gap: 14, alignItems: "center", position: "relative", zIndex: 1, flexShrink: 0 }}>
               <button
-                onClick={() => window.open("https://drive.google.com/file/d/17uEe9T9TmZqEFvpqv6tYoh2ZwoDC5kBP/view?usp=sharing", "_blank")}
+                onClick={() => window.open("https://drive.google.com/file/d/113crhUwGj_f8VfkSnCUh__zPw9PJZfHb/view?usp=sharing")}
                 style={{
                   width: 52,
                   height: 52,
